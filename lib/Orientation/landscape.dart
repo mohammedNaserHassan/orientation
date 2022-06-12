@@ -11,7 +11,7 @@ class Landscape extends StatelessWidget {
         backgroundColor: Color(0xffB457ED),
         title:  Container(
             padding: EdgeInsets.only(left: MediaQuery.of(context).size.width * 0.02),
-            child: Text('SECOND ASIGNMENT')),
+            child: Text('SECOND ASIGNMENT',style: TextStyle(fontSize: 17),)),
       ),
       body: Row(
         children: [

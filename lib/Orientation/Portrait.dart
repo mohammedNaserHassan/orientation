@@ -14,7 +14,7 @@ class Portrait extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                SizedBox(height: MediaQuery.of(context).size.height * 0.12),
+                SizedBox(height: MediaQuery.of(context).size.height * 0.14),
                 buildText('FIRST'),
                 buildText('SECOND'),
                 buildText('THIRD'),
@@ -26,7 +26,7 @@ class Portrait extends StatelessWidget {
         ),
         appBar: AppBar(
           backgroundColor: Color(0xffB457ED),
-          title: const Text('SECOND ASIGNMENT'),
+          title: const Text('SECOND ASIGNMENT',style: TextStyle(fontSize: 17),),
         ),
         body: Container(
           width: MediaQuery.of(context).size.width,
